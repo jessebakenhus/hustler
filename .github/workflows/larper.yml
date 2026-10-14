@@ -27,7 +27,7 @@ jobs:
             git add grind.log
             git commit -m "refactor: critical enterprise sync patch #$i [skip ci]"
             sleep 1
-          - done
+          done
 
       - name: push
         run: git push
