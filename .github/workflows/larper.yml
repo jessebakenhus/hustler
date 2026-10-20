@@ -16,8 +16,8 @@ jobs:
 
       - name: git-identity
         run: |
-          git config --global user.name "Larper"
-          git config --global user.email "jesse@larper.be"
+          git config --global user.name "Jesse Bakenhus"
+          git config --global user.email "jesse.bakenhus@gmx.de"
 
       - name: gen-activities
         run: |
